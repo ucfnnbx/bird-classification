@@ -1,11 +1,4 @@
 # bird-classification
-Train a CNN model to classify bird species around UCL east. 
-# Final Project
-
-
-
-Hints on what should go into this page (note each three of these sections are weighted evenly):
-
 ## Definition of problem being solved 
 (project overview, research question, data available, outcomes anticipated, application design) 
 ### Project Overview
