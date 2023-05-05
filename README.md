@@ -7,9 +7,8 @@ In this project, transfer learning based on a pre-trained CNN model is used to b
 Can a CNN-based transfer learning model be used to classify main bird species around UCL East with good accuracy?
 Anticipated outcome is positive.
 ### Dataset
-The dataset used was chosen from Kaggle BIRDS 510 SPECIES dataset, which has around 200 training images for each kind of bird. 
+The dataset used was chosen from Kaggle BIRDS 510 SPECIES dataset, which has around 200 training images for each kind of bird. A few self-shot images are also added in the dataset.
 Available at: https://www.kaggle.com/datasets/gpiosenka/100-bird-species
-A few self-shot images are also added in the dataset.
 ### Application Design
 Edge Impulse was used as the platform to store, tag and split the data; build, train and test the model; deploy the model to a mobile phone. 
 
