@@ -14,6 +14,32 @@ Edge Impulse was used as the platform to store, tag and split the data; build, t
 ## Documentation of experiments and results 
 The final trained model achieved 95.83% accuracy. To train the model, a series of experiments were run to solve overfitting problem and achieve a higher accuracy. The model architecture was a MobileNet-v2 (160x160 0.35) with the top four layers disabled. Also, the impact of data augmentation, greyscale preprocessing, learning rate and quantization on the performance of model was experimented. Details of results can be found in the report. 
 
+Demonstration of the model deployed on a mobile phone:
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/bird-classification/blob/main/Results/result_1.png" width="250">
+</p>
+
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/bird-classification/blob/main/Results/result_2.png" width="250">
+</p>
+
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/bird-classification/blob/main/Results/result_3.png" width="250">
+</p>
+
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/bird-classification/blob/main/Results/result_4.png" width="250">
+</p>
+
+<p align="center">
+<img
+src="https://github.com/ucfnnbx/bird-classification/blob/main/Results/result_5.png" width="250">
+</p>
+
 ## Critical reflection and learning from experiments 
 ### Observations from experiments
 Overfitting leads to a decrease of accuracy, which can be solved by reducing layers in the model, adding dropout and setting suitable training epochs. 
