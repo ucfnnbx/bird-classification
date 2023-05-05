@@ -1,6 +1,5 @@
 # bird-classification
 ## Definition of problem being solved 
-(project overview, research question, data available, outcomes anticipated, application design) 
 ### Project Overview
 In this project, transfer learning based on a pre-trained CNN model is used to build a classifier for bird species that are frequently spotted around the area of UCL East campus. Four types of birds can be classified in the current stage, which are crow, double brested cormorant, Eurasian magpie and gull. 
 ### Research Question
@@ -13,11 +12,9 @@ Available at: https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 Edge Impulse was used as the platform to store, tag and split the data; build, train and test the model; deploy the model to a mobile phone. 
 
 ## Documentation of experiments and results 
-(model training results, description of training runs, model architecture choices, visual record of experiments) 
 The final trained model achieved 95.83% accuracy. To train the model, a series of experiments were run to solve overfitting problem and achieve a higher accuracy. The model architecture was a MobileNet-v2 (160x160 0.35) with the top four layers disabled. Also, the impact of data augmentation, greyscale preprocessing, learning rate and quantization on the performance of model was experimented. Details of results can be found in the report. 
 
 ## Critical reflection and learning from experiments 
-(observations from experiments, factors incluencing results, potential improvements, weaknesses, feedback from reviews) 
 ### Observations from experiments
 Overfitting leads to a decrease of accuracy, which can be solved by reducing layers in the model, adding dropout and setting suitable training epochs. 
 ### Weaknesses
